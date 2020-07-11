@@ -1,6 +1,0 @@
-framework module Pods_Twist_For_Mac {
-  umbrella header "Pods-Twist For Mac-umbrella.h"
-
-  export *
-  module * { export * }
-}
