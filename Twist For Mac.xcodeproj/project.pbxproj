@@ -3,27 +3,92 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3005D7FD24B9D91E005EE519 /* AnimeDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D7FC24B9D91E005EE519 /* AnimeDetailModel.swift */; };
+		3005D80024B9DC57005EE519 /* AnimeEpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D7FF24B9DC57005EE519 /* AnimeEpisodeModel.swift */; };
+		3005D80624B9E338005EE519 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D80524B9E338005EE519 /* Crypto.swift */; };
+		3005D81B24B9E374005EE519 /* sha1.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80824B9E374005EE519 /* sha1.js */; };
+		3005D81C24B9E374005EE519 /* sha256.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80924B9E374005EE519 /* sha256.js */; };
+		3005D81D24B9E374005EE519 /* aes.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80A24B9E374005EE519 /* aes.js */; };
+		3005D81E24B9E374005EE519 /* sha384.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80B24B9E374005EE519 /* sha384.js */; };
+		3005D81F24B9E374005EE519 /* tripledes.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80C24B9E374005EE519 /* tripledes.js */; };
+		3005D82024B9E374005EE519 /* pad-iso10126.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80D24B9E374005EE519 /* pad-iso10126.js */; };
+		3005D82124B9E374005EE519 /* mode-ecb.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80E24B9E374005EE519 /* mode-ecb.js */; };
+		3005D82224B9E374005EE519 /* pad-iso97971.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D80F24B9E374005EE519 /* pad-iso97971.js */; };
+		3005D82324B9E374005EE519 /* sha512.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81024B9E374005EE519 /* sha512.js */; };
+		3005D82424B9E374005EE519 /* mode-cfb.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81124B9E374005EE519 /* mode-cfb.js */; };
+		3005D82524B9E374005EE519 /* pad-zeropadding.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81224B9E374005EE519 /* pad-zeropadding.js */; };
+		3005D82624B9E374005EE519 /* mode-ofb.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81324B9E374005EE519 /* mode-ofb.js */; };
+		3005D82724B9E374005EE519 /* pad-ansix923.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81424B9E374005EE519 /* pad-ansix923.js */; };
+		3005D82824B9E374005EE519 /* md5.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81524B9E374005EE519 /* md5.js */; };
+		3005D82924B9E374005EE519 /* pad-nopadding.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81624B9E374005EE519 /* pad-nopadding.js */; };
+		3005D82A24B9E374005EE519 /* sha3.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81724B9E374005EE519 /* sha3.js */; };
+		3005D82B24B9E374005EE519 /* ripemd160.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81824B9E374005EE519 /* ripemd160.js */; };
+		3005D82C24B9E374005EE519 /* mode-ctr.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81924B9E374005EE519 /* mode-ctr.js */; };
+		3005D82D24B9E374005EE519 /* sha224.js in Resources */ = {isa = PBXBuildFile; fileRef = 3005D81A24B9E374005EE519 /* sha224.js */; };
+		3005D82F24B9E8A0005EE519 /* MOTDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D82E24B9E8A0005EE519 /* MOTDModel.swift */; };
+		3005D83124BA15C1005EE519 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D83024BA15C1005EE519 /* AnimeViewController.swift */; };
+		3005D83324BA160C005EE519 /* AnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3005D83224BA160C005EE519 /* AnimeCollectionViewCell.swift */; };
+		3024169924BA515800BA9658 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024169824BA515800BA9658 /* SplitViewController.swift */; };
+		3024169B24BA518200BA9658 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024169A24BA518200BA9658 /* MenuViewController.swift */; };
+		3024169D24BA548400BA9658 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024169C24BA548400BA9658 /* MenuTableViewCell.swift */; };
 		30829F4F24B91215002A18A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F4E24B91215002A18A6 /* AppDelegate.swift */; };
 		30829F5124B91215002A18A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F5024B91215002A18A6 /* SceneDelegate.swift */; };
-		30829F5324B91215002A18A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F5224B91215002A18A6 /* ViewController.swift */; };
 		30829F5624B91216002A18A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30829F5424B91216002A18A6 /* Main.storyboard */; };
 		30829F5824B91219002A18A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30829F5724B91219002A18A6 /* Assets.xcassets */; };
 		30829F5B24B91219002A18A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30829F5924B91219002A18A6 /* LaunchScreen.storyboard */; };
+		30829F6424B9D3F6002A18A6 /* AnimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F6324B9D3F6002A18A6 /* AnimeManager.swift */; };
+		30829F6B24B9D426002A18A6 /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F6A24B9D426002A18A6 /* AnimeModel.swift */; };
+		30829F6D24B9D5BD002A18A6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F6C24B9D5BD002A18A6 /* Utils.swift */; };
+		6A4703FF5A2DED257801E85F /* Pods_Twist_For_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2497F03E235A7C3F20A7B93B /* Pods_Twist_For_Mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2497F03E235A7C3F20A7B93B /* Pods_Twist_For_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twist_For_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3005D7FC24B9D91E005EE519 /* AnimeDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailModel.swift; sourceTree = "<group>"; };
+		3005D7FF24B9DC57005EE519 /* AnimeEpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeEpisodeModel.swift; sourceTree = "<group>"; };
+		3005D80524B9E338005EE519 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		3005D80824B9E374005EE519 /* sha1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sha1.js; sourceTree = "<group>"; };
+		3005D80924B9E374005EE519 /* sha256.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sha256.js; sourceTree = "<group>"; };
+		3005D80A24B9E374005EE519 /* aes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = aes.js; sourceTree = "<group>"; };
+		3005D80B24B9E374005EE519 /* sha384.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sha384.js; sourceTree = "<group>"; };
+		3005D80C24B9E374005EE519 /* tripledes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tripledes.js; sourceTree = "<group>"; };
+		3005D80D24B9E374005EE519 /* pad-iso10126.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pad-iso10126.js"; sourceTree = "<group>"; };
+		3005D80E24B9E374005EE519 /* mode-ecb.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ecb.js"; sourceTree = "<group>"; };
+		3005D80F24B9E374005EE519 /* pad-iso97971.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pad-iso97971.js"; sourceTree = "<group>"; };
+		3005D81024B9E374005EE519 /* sha512.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sha512.js; sourceTree = "<group>"; };
+		3005D81124B9E374005EE519 /* mode-cfb.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-cfb.js"; sourceTree = "<group>"; };
+		3005D81224B9E374005EE519 /* pad-zeropadding.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pad-zeropadding.js"; sourceTree = "<group>"; };
+		3005D81324B9E374005EE519 /* mode-ofb.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ofb.js"; sourceTree = "<group>"; };
+		3005D81424B9E374005EE519 /* pad-ansix923.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pad-ansix923.js"; sourceTree = "<group>"; };
+		3005D81524B9E374005EE519 /* md5.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = md5.js; sourceTree = "<group>"; };
+		3005D81624B9E374005EE519 /* pad-nopadding.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "pad-nopadding.js"; sourceTree = "<group>"; };
+		3005D81724B9E374005EE519 /* sha3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sha3.js; sourceTree = "<group>"; };
+		3005D81824B9E374005EE519 /* ripemd160.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ripemd160.js; sourceTree = "<group>"; };
+		3005D81924B9E374005EE519 /* mode-ctr.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mode-ctr.js"; sourceTree = "<group>"; };
+		3005D81A24B9E374005EE519 /* sha224.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sha224.js; sourceTree = "<group>"; };
+		3005D82E24B9E8A0005EE519 /* MOTDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOTDModel.swift; sourceTree = "<group>"; };
+		3005D83024BA15C1005EE519 /* AnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
+		3005D83224BA160C005EE519 /* AnimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3024169824BA515800BA9658 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		3024169A24BA518200BA9658 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3024169C24BA548400BA9658 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		30829F4B24B91215002A18A6 /* Twist For Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twist For Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30829F4E24B91215002A18A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30829F5024B91215002A18A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30829F5224B91215002A18A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30829F5524B91216002A18A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30829F5724B91219002A18A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30829F5A24B91219002A18A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30829F5C24B91219002A18A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30829F6224B91264002A18A6 /* Twist For Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Twist For Mac.entitlements"; sourceTree = "<group>"; };
+		30829F6324B9D3F6002A18A6 /* AnimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeManager.swift; sourceTree = "<group>"; };
+		30829F6A24B9D426002A18A6 /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
+		30829F6C24B9D5BD002A18A6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6F6D3E6267DE8A82690EEA91 /* Pods-Twist For Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twist For Mac.release.xcconfig"; path = "Target Support Files/Pods-Twist For Mac/Pods-Twist For Mac.release.xcconfig"; sourceTree = "<group>"; };
+		F8691369189B26AAA62A4AFD /* Pods-Twist For Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twist For Mac.debug.xcconfig"; path = "Target Support Files/Pods-Twist For Mac/Pods-Twist For Mac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +96,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4703FF5A2DED257801E85F /* Pods_Twist_For_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3005D80724B9E374005EE519 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				3005D80824B9E374005EE519 /* sha1.js */,
+				3005D80924B9E374005EE519 /* sha256.js */,
+				3005D80A24B9E374005EE519 /* aes.js */,
+				3005D80B24B9E374005EE519 /* sha384.js */,
+				3005D80C24B9E374005EE519 /* tripledes.js */,
+				3005D80D24B9E374005EE519 /* pad-iso10126.js */,
+				3005D80E24B9E374005EE519 /* mode-ecb.js */,
+				3005D80F24B9E374005EE519 /* pad-iso97971.js */,
+				3005D81024B9E374005EE519 /* sha512.js */,
+				3005D81124B9E374005EE519 /* mode-cfb.js */,
+				3005D81224B9E374005EE519 /* pad-zeropadding.js */,
+				3005D81324B9E374005EE519 /* mode-ofb.js */,
+				3005D81424B9E374005EE519 /* pad-ansix923.js */,
+				3005D81524B9E374005EE519 /* md5.js */,
+				3005D81624B9E374005EE519 /* pad-nopadding.js */,
+				3005D81724B9E374005EE519 /* sha3.js */,
+				3005D81824B9E374005EE519 /* ripemd160.js */,
+				3005D81924B9E374005EE519 /* mode-ctr.js */,
+				3005D81A24B9E374005EE519 /* sha224.js */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		3024169E24BA62E800BA9658 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3005D83024BA15C1005EE519 /* AnimeViewController.swift */,
+				3024169824BA515800BA9658 /* SplitViewController.swift */,
+				3024169A24BA518200BA9658 /* MenuViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3024169F24BA632B00BA9658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3005D83224BA160C005EE519 /* AnimeCollectionViewCell.swift */,
+				3024169C24BA548400BA9658 /* MenuTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		30829F4224B91215002A18A6 = {
 			isa = PBXGroup;
 			children = (
+				30829F6624B9D400002A18A6 /* TwistCore */,
 				30829F4D24B91215002A18A6 /* Twist For Mac */,
 				30829F4C24B91215002A18A6 /* Products */,
+				9A1E9868ACB0C7ADF1DB6DF3 /* Pods */,
+				D0D8C8B82AD8ECA8C68C9F4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +170,73 @@
 		30829F4D24B91215002A18A6 /* Twist For Mac */ = {
 			isa = PBXGroup;
 			children = (
+				30829F6224B91264002A18A6 /* Twist For Mac.entitlements */,
 				30829F4E24B91215002A18A6 /* AppDelegate.swift */,
 				30829F5024B91215002A18A6 /* SceneDelegate.swift */,
-				30829F5224B91215002A18A6 /* ViewController.swift */,
+				3024169E24BA62E800BA9658 /* View Controllers */,
+				3024169F24BA632B00BA9658 /* Views */,
 				30829F5424B91216002A18A6 /* Main.storyboard */,
 				30829F5724B91219002A18A6 /* Assets.xcassets */,
 				30829F5924B91219002A18A6 /* LaunchScreen.storyboard */,
 				30829F5C24B91219002A18A6 /* Info.plist */,
 			);
 			path = "Twist For Mac";
+			sourceTree = "<group>";
+		};
+		30829F6624B9D400002A18A6 /* TwistCore */ = {
+			isa = PBXGroup;
+			children = (
+				30829F6924B9D419002A18A6 /* Models */,
+				30829F6824B9D40E002A18A6 /* Managers */,
+				30829F6E24B9D5C6002A18A6 /* Utils */,
+			);
+			path = TwistCore;
+			sourceTree = "<group>";
+		};
+		30829F6824B9D40E002A18A6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				30829F6324B9D3F6002A18A6 /* AnimeManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		30829F6924B9D419002A18A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30829F6A24B9D426002A18A6 /* AnimeModel.swift */,
+				3005D7FC24B9D91E005EE519 /* AnimeDetailModel.swift */,
+				3005D7FF24B9DC57005EE519 /* AnimeEpisodeModel.swift */,
+				3005D82E24B9E8A0005EE519 /* MOTDModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30829F6E24B9D5C6002A18A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				30829F6C24B9D5BD002A18A6 /* Utils.swift */,
+				3005D80724B9E374005EE519 /* components */,
+				3005D80524B9E338005EE519 /* Crypto.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9A1E9868ACB0C7ADF1DB6DF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8691369189B26AAA62A4AFD /* Pods-Twist For Mac.debug.xcconfig */,
+				6F6D3E6267DE8A82690EEA91 /* Pods-Twist For Mac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0D8C8B82AD8ECA8C68C9F4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2497F03E235A7C3F20A7B93B /* Pods_Twist_For_Mac.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30829F5F24B91219002A18A6 /* Build configuration list for PBXNativeTarget "Twist For Mac" */;
 			buildPhases = (
+				AE2006137447365BB8711D45 /* [CP] Check Pods Manifest.lock */,
 				30829F4724B91215002A18A6 /* Sources */,
 				30829F4824B91215002A18A6 /* Frameworks */,
 				30829F4924B91215002A18A6 /* Resources */,
+				7D4C932C9A9B39841B3A5DE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +299,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3005D82524B9E374005EE519 /* pad-zeropadding.js in Resources */,
+				3005D81C24B9E374005EE519 /* sha256.js in Resources */,
+				3005D82024B9E374005EE519 /* pad-iso10126.js in Resources */,
+				3005D82124B9E374005EE519 /* mode-ecb.js in Resources */,
 				30829F5B24B91219002A18A6 /* LaunchScreen.storyboard in Resources */,
+				3005D82324B9E374005EE519 /* sha512.js in Resources */,
+				3005D82C24B9E374005EE519 /* mode-ctr.js in Resources */,
+				3005D81E24B9E374005EE519 /* sha384.js in Resources */,
+				3005D82D24B9E374005EE519 /* sha224.js in Resources */,
+				3005D81F24B9E374005EE519 /* tripledes.js in Resources */,
+				3005D82224B9E374005EE519 /* pad-iso97971.js in Resources */,
+				3005D82624B9E374005EE519 /* mode-ofb.js in Resources */,
+				3005D82824B9E374005EE519 /* md5.js in Resources */,
+				3005D81D24B9E374005EE519 /* aes.js in Resources */,
 				30829F5824B91219002A18A6 /* Assets.xcassets in Resources */,
 				30829F5624B91216002A18A6 /* Main.storyboard in Resources */,
+				3005D82724B9E374005EE519 /* pad-ansix923.js in Resources */,
+				3005D82924B9E374005EE519 /* pad-nopadding.js in Resources */,
+				3005D82A24B9E374005EE519 /* sha3.js in Resources */,
+				3005D82424B9E374005EE519 /* mode-cfb.js in Resources */,
+				3005D81B24B9E374005EE519 /* sha1.js in Resources */,
+				3005D82B24B9E374005EE519 /* ripemd160.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D4C932C9A9B39841B3A5DE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twist For Mac/Pods-Twist For Mac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twist For Mac/Pods-Twist For Mac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twist For Mac/Pods-Twist For Mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2006137447365BB8711D45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twist For Mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30829F4724B91215002A18A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30829F5324B91215002A18A6 /* ViewController.swift in Sources */,
+				3005D83324BA160C005EE519 /* AnimeCollectionViewCell.swift in Sources */,
+				3005D80024B9DC57005EE519 /* AnimeEpisodeModel.swift in Sources */,
+				3024169D24BA548400BA9658 /* MenuTableViewCell.swift in Sources */,
+				3005D83124BA15C1005EE519 /* AnimeViewController.swift in Sources */,
 				30829F4F24B91215002A18A6 /* AppDelegate.swift in Sources */,
+				3005D80624B9E338005EE519 /* Crypto.swift in Sources */,
+				3005D7FD24B9D91E005EE519 /* AnimeDetailModel.swift in Sources */,
+				3005D82F24B9E8A0005EE519 /* MOTDModel.swift in Sources */,
+				3024169B24BA518200BA9658 /* MenuViewController.swift in Sources */,
+				30829F6B24B9D426002A18A6 /* AnimeModel.swift in Sources */,
+				30829F6424B9D3F6002A18A6 /* AnimeManager.swift in Sources */,
 				30829F5124B91215002A18A6 /* SceneDelegate.swift in Sources */,
+				30829F6D24B9D5BD002A18A6 /* Utils.swift in Sources */,
+				3024169924BA515800BA9658 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +528,10 @@
 		};
 		30829F6024B91219002A18A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8691369189B26AAA62A4AFD /* Pods-Twist For Mac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Twist For Mac/Twist For Mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J3WW2KWBU;
 				INFOPLIST_FILE = "Twist For Mac/Info.plist";
@@ -293,15 +541,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aritropaul.Twist-For-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		30829F6124B91219002A18A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6D3E6267DE8A82690EEA91 /* Pods-Twist For Mac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Twist For Mac/Twist For Mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J3WW2KWBU;
 				INFOPLIST_FILE = "Twist For Mac/Info.plist";
@@ -311,8 +562,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aritropaul.Twist-For-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
