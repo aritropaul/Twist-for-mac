@@ -35,6 +35,8 @@
 		3024169924BA515800BA9658 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024169824BA515800BA9658 /* SplitViewController.swift */; };
 		3024169B24BA518200BA9658 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024169A24BA518200BA9658 /* MenuViewController.swift */; };
 		3024169D24BA548400BA9658 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024169C24BA548400BA9658 /* MenuTableViewCell.swift */; };
+		302416A124BA6A4000BA9658 /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302416A024BA6A3F00BA9658 /* UIStoryboard+Extensions.swift */; };
+		302416A324BA6A5C00BA9658 /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302416A224BA6A5C00BA9658 /* AnimeDetailViewController.swift */; };
 		30829F4F24B91215002A18A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F4E24B91215002A18A6 /* AppDelegate.swift */; };
 		30829F5124B91215002A18A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829F5024B91215002A18A6 /* SceneDelegate.swift */; };
 		30829F5624B91216002A18A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30829F5424B91216002A18A6 /* Main.storyboard */; };
@@ -76,6 +78,8 @@
 		3024169824BA515800BA9658 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		3024169A24BA518200BA9658 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3024169C24BA548400BA9658 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		302416A024BA6A3F00BA9658 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		302416A224BA6A5C00BA9658 /* AnimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewController.swift; sourceTree = "<group>"; };
 		30829F4B24B91215002A18A6 /* Twist For Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twist For Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30829F4E24B91215002A18A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30829F5024B91215002A18A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 				3005D83024BA15C1005EE519 /* AnimeViewController.swift */,
 				3024169824BA515800BA9658 /* SplitViewController.swift */,
 				3024169A24BA518200BA9658 /* MenuViewController.swift */,
+				302416A224BA6A5C00BA9658 /* AnimeDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				30829F6224B91264002A18A6 /* Twist For Mac.entitlements */,
 				30829F4E24B91215002A18A6 /* AppDelegate.swift */,
 				30829F5024B91215002A18A6 /* SceneDelegate.swift */,
+				302416A024BA6A3F00BA9658 /* UIStoryboard+Extensions.swift */,
 				3024169E24BA62E800BA9658 /* View Controllers */,
 				3024169F24BA632B00BA9658 /* Views */,
 				30829F5424B91216002A18A6 /* Main.storyboard */,
@@ -379,12 +385,14 @@
 				3005D83124BA15C1005EE519 /* AnimeViewController.swift in Sources */,
 				30829F4F24B91215002A18A6 /* AppDelegate.swift in Sources */,
 				3005D80624B9E338005EE519 /* Crypto.swift in Sources */,
+				302416A324BA6A5C00BA9658 /* AnimeDetailViewController.swift in Sources */,
 				3005D7FD24B9D91E005EE519 /* AnimeDetailModel.swift in Sources */,
 				3005D82F24B9E8A0005EE519 /* MOTDModel.swift in Sources */,
 				3024169B24BA518200BA9658 /* MenuViewController.swift in Sources */,
 				30829F6B24B9D426002A18A6 /* AnimeModel.swift in Sources */,
 				30829F6424B9D3F6002A18A6 /* AnimeManager.swift in Sources */,
 				30829F5124B91215002A18A6 /* SceneDelegate.swift in Sources */,
+				302416A124BA6A4000BA9658 /* UIStoryboard+Extensions.swift in Sources */,
 				30829F6D24B9D5BD002A18A6 /* Utils.swift in Sources */,
 				3024169924BA515800BA9658 /* SplitViewController.swift in Sources */,
 			);

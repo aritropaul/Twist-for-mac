@@ -18,6 +18,7 @@ struct Twist {
         static let motd = base + "motd/"
         static let airing = base + "list/anime?page[limit]=20&sort=-user_count&filter[status]=current&page[offset]="
         static let rated = base + "list/anime?page[limit]=20&sort=-average_rating&page[offset]="
+        static let cdn = "https://twist.moe"
     }
     
     struct Constant {

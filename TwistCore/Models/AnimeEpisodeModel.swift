@@ -21,8 +21,8 @@ struct Episode: Codable {
         case updatedAt = "updated_at"
     }
     
-    func decodedURL(_ source: String) -> String {
-        return Twist.Anime.base + CryptoJS.AES.shared.decrypt(source, password: Twist.Constant.key)
+    func decodedURL() -> String {
+        return Twist.Anime.cdn + CryptoJS.AES.shared.decrypt(self.source ?? "", password: Twist.Constant.key)
     }
     
 }

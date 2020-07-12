@@ -42,7 +42,7 @@ class AnimeManager {
         task.resume()
     }
     
-    func loadEpisodes(anime: Anime, completion: @escaping(Result<[Episode], Error>)->Void) {
+    func loadEpisodes(anime: AnimeDetail, completion: @escaping(Result<[Episode], Error>)->Void) {
         guard let slug = anime.slug?.slug else { return }
         guard let url = URL(string: Twist.Anime.anime + slug + Twist.Anime.sources) else { return }
         let session = URLSession.shared

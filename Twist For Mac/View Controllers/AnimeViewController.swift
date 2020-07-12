@@ -134,4 +134,22 @@ class AnimeViewController: UICollectionViewController {
     }
 
 
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let animeDetailVC : AnimeDetailViewController = .instantiate(from: .main)
+        let selectedAnime = anime[indexPath.row]
+        AnimeManager.shared.loadAnime(anime: selectedAnime) { (result) in
+            switch result {
+            case .success(let anime) :
+                animeDetailVC.anime = anime
+                DispatchQueue.main.async {
+                    animeDetailVC.modalPresentationStyle = .fullScreen
+                    self.present(animeDetailVC, animated: true, completion: nil)
+                }
+            case .failure(let error) :
+                print(error)
+            }
+        }
+        
+    }
+    
 }
